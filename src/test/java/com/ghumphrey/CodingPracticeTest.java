@@ -1,5 +1,4 @@
 package com.ghumphrey;
-
 import org.junit.*;
 import org.junit.Test;
 
@@ -15,14 +14,14 @@ public class CodingPracticeTest
         target = new CodingPractice();
     }
     /**
-     * Given an integer @param limit return all prime numbers up to the limit a string, values 
-     * should be separated by 
+     * Given an integer @param limit return all prime numbers up to the limit in a string, values 
+     * should be separated by a comma
      */    
     @Test
     public void primeNumberCount_GivenALimit_ShouldReturnTheCountOfPrimeNumbersUptoLimit()
     {
         //Setup
-        int limit = 300;
+        int limit = 100;
         //Act
         //Assert
         Assert.assertEquals(25, null);
@@ -36,7 +35,7 @@ public class CodingPracticeTest
     public void primeNumberRange_GivenALimit_ShouldReturnAllPrimeNumbersUptoLimit()
     {
         //Setup
-        int limit = 300;
+        int limit = 100;
         String expected = "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97";
         //Act
         //Assert
